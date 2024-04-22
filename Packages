@@ -1,0 +1,267 @@
+Package: com.ex.substitute
+Architecture: iphoneos-arm
+Version: 2.3.1
+Priority: optional
+Section: System
+Maintainer: Sam Bingner
+Installed-Size: 27456
+Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
+Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
+Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode (>=0.9.6005), uikittools (>=1.1.13-4), darwintools
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate, ws.hbang.stopcrashingpls (<<1.0.2)
+Breaks: com.saurik.substrate.safemode (<<0.9.6004)
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
+Filename: ./debs/iphoneos-arm/com.ex.substitute_2.3.1_iphoneos-arm.deb
+Size: 7442088
+MD5sum: dce90a30e8b20198762d81c5872ad1b3
+SHA1: 0f8c9ef6db614eb7f82caf7ff2b06cabf0233232
+SHA256: b37592166962f70a5b1bafc15848f229b4689bb60a9bbc61431b8be361193fd6
+SHA512: 755bdbeafa9a15ad56e0bc263122b17b128ea76c2cb9d2412ae0f5468a87130914035c687d9efe9ed3b3828a9291106348711f900a4c828645079cb3b6aa46a4
+Description: Substrate substitute for code substitution
+Author: comex <comexk+da@gmail.com>
+Name: Substitute
+
+Package: com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Version: 1.0.10~beta1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 596
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Filename: ./debs/iphoneos-arm/com.rpetrich.rocketbootstrap_1.0.10_beta1_iphoneos-arm.deb
+Size: 38344
+MD5sum: b52417e29631c59cdb267379e71e2a69
+SHA1: 5839fce38b27e624ab5629d50fd543f30b473615
+SHA256: d06e18eefbfcb40f3e3b215bfbccaf34091fb30b2ccb1e4f6c519aa91d2b7248
+SHA512: 42b13ee05ce8766a02c3dc4779752c97a2bd379690c928101cc590a3204af7f322051badf1e810faf4ab2c0520d00abc1df8e4aea86473b2f7b69c213c900d8e
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Tag: purpose::extension, role::developer
+Name: RocketBootstrap
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: rpetrich
+
+Package: com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Version: 1.0.9
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 596
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Filename: ./debs/iphoneos-arm/com.rpetrich.rocketbootstrap_1.0.9.deb
+Size: 37192
+MD5sum: 612e3c55752ee8cfc631e341c5618795
+SHA1: 6c2cb0c69f77b84090f76ebfa909bf64e40b11b9
+SHA256: 1f6aed403c557eec1ac93bdb2fc50fe5e9808f230783480ea488a2f42880642f
+SHA512: 93f923f5fd94fd9defe8369b9d08907ca28587750dfb35bc1f8fb487e3743cc74a5f480439b663a01b5c3b561cda2f76a5c110c95ee88b61591c310c3a3cdfad
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Tag: purpose::extension, role::developer
+Name: RocketBootstrap
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: rpetrich
+
+Package: com.saurik.substrate.safemode
+Architecture: iphoneos-arm
+Version: 0.9.6005
+Priority: optional
+Section: Tweaks
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Conflicts: safe-mode-fixer-ios7
+Replaces: safe-mode-fixer-ios7
+Filename: ./debs/iphoneos-arm/com.saurik.substrate.safemode_0.9.6005_iphoneos-arm.deb
+Size: 22736
+MD5sum: 73e56c9f8209fc56c8852bfcfd5b23d7
+SHA1: 8bb7866945dac32ad68648ebf38ca343fa715b7d
+SHA256: de3f3c5e0bfde32d61e14daaca7a7899a73215f94753a77fca1aa4203b018c87
+SHA512: 96bc00fdd620d18beff17ff73835baf264832f9ada2eaf01b641362a8a9641d2d31e48c91f1c3062d09a62c6cf37903cf511d5c6a2e03e1427d33927197fc1f0
+Description: safe mode safety extension (safe)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Substrate Safe Mode
+Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+
+Package: me.autotouch.autotouch.ios8.inputtext
+Architecture: iphoneos-arm
+Version: 8.1.2
+Priority: optional
+Section: Utilities
+Maintainer: Kent Krantz <kentkrantz@gmail.com>
+Installed-Size: 75096
+Depends: firmware (>= 12.2) | org.swift.libswift (>= 5.0), com.ex.substitute | org.coolstar.libhooker
+Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
+Filename: ./debs/iphoneos-arm/me.autotouch.autotouch.ios8.inputtext_8.1.2_iphoneos-arm.deb
+Size: 21252632
+MD5sum: 3426b2aab3e06096410b89622ef4f6c9
+SHA1: f3a57fc92c8b45a501397d54ef90b6bf9e869b53
+SHA256: 468218b551d14ace20b3a0da79132e6cf4e8fd039f906d68da5b539aebcd9aa9
+SHA512: 9d225244cd1b9208790af74a03b9271ec27b02f17d691de83d323db701a796dc6321a2625a46a9f37ec093e7d3427afdddb086271413df4b3b4955dc95bbaed4
+Homepage: https://autotouch.net
+Description: Record and playback touch operations, play macro scripts automatically.
+Name: AutoTouch InputText
+Author: Kent Krantz <kentkrantz@gmail.com>
+Icon: file:///Applications/AutoTouch.app/AppIcon60x60@2x.png
+
+Package: me.autotouch.autotouch.ios8
+Architecture: iphoneos-arm
+Version: 8.1.2
+Priority: optional
+Section: Utilities
+Maintainer: Kent Krantz <kentkrantz@gmail.com>
+Installed-Size: 75096
+Depends: firmware (>= 12.2) | org.swift.libswift (>= 5.0), com.ex.substitute
+Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
+Filename: ./debs/iphoneos-arm/me.autotouch.autotouch.ios8_8.1.2_iphoneos-arm.deb
+Size: 21247654
+MD5sum: 367d262082fdae58c588929969dd042a
+SHA1: f89bab2561a675899672941b0c656fc8b091eb6a
+SHA256: 883cba01ff0d10d6c7c7093bb8ead093901d43611d92d2cb089e110e21a67df7
+SHA512: 4ce725c40201b861068e115a9e63beb5932a6e5b53946f0bf0d2c10cbeccb6007b763574275b757b22dfef88602eaeeb86489b91cbbaad422a8db1742ab08018
+Homepage: https://autotouch.net
+Description: Record and playback touch operations, play macro scripts automatically.
+Name: AutoTouch
+Author: Kent Krantz <kentkrantz@gmail.com>
+Icon: file:///Applications/AutoTouch.app/AppIcon60x60@2x.png
+
+Package: org.coolstar.libhooker-newabi
+Architecture: iphoneos-arm
+Version: 1.6.8
+Section: System
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 14.0), cy+cpu.arm64, org.coolstar.safemode, org.coolstar.libhooker (>= 1.6.9-1)
+Replaces: org.coolstar.libhooker (<= 1.6.9)
+Filename: ./debs/iphoneos-arm/org.coolstar.libhooker-newabi_1.6.8_iphoneos-arm.deb
+Size: 45980
+MD5sum: 3457d9e0a9040bfa20be89737f20cafc
+SHA1: f9a8460f9f914039dbb2768c83129131f25a38ca
+SHA256: fe9b67a8010f23ab08acb595fa3604098597a0c7c9eda51ae74b7b863c141717
+SHA512: 4b99e573a45a02a19bfee7c033a0ba8415a60677d362f44d62f407f377f6da9ecc6601f45f53f37c946d0e00c5d7ace02aba0780440789919c73b757d9e59e39
+Description: General Purpose Injection and Hooking library for 64-bit devices
+Name: libhooker (New ABI)
+Author: CoolStar <coolstarorganization@gmail.com>
+Icon: https://repo.theodyssey.dev/depictions/icons/libhooker.png
+SileoDepiction: https://repo.theodyssey.dev/depictions/json/libhooker.json
+
+Package: org.coolstar.libhooker-oldabi
+Architecture: iphoneos-arm
+Version: 1.6.9
+Section: System
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 11.0), firmware (<< 14.0), cy+cpu.arm64, org.coolstar.safemode, org.coolstar.libhooker (>= 1.6.9-1)
+Replaces: org.coolstar.libhooker (<= 1.6.9)
+Filename: ./debs/iphoneos-arm/org.coolstar.libhooker-oldabi_1.6.9_iphoneos-arm.deb
+Size: 42228
+MD5sum: 42e609faf440d2dcf165beca103cd19d
+SHA1: b4fc51901539d28b41bcc59194532d273024c459
+SHA256: 19cc2f3c0f219435d5de1fb6aa7fb25748e0b6a7ef4e83cc2e3a98ce45067ace
+SHA512: 8752775ef2bfdecd50b2e9a7f19792e2fabfd4e65f01b1e6b465703c88add3e5dc82a4429f552fb1ab3a850a40ea2b395ae9b5fef7126326512df9cb441f8142
+Description: General Purpose Injection and Hooking library for 64-bit devices
+Name: libhooker (Old ABI)
+Author: CoolStar <coolstarorganization@gmail.com>
+Icon: https://repo.theodyssey.dev/depictions/icons/libhooker.png
+SileoDepiction: https://repo.theodyssey.dev/depictions/json/libhooker.json
+
+Package: org.coolstar.libhooker
+Architecture: iphoneos-arm
+Version: 1.6.9-1
+Section: System
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
+Depends: firmware (>= 11.0), cy+cpu.arm64, org.coolstar.safemode, org.coolstar.libhooker-oldabi | org.coolstar.libhooker-newabi
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Filename: ./debs/iphoneos-arm/org.coolstar.libhooker_1.6.9-1_iphoneos-arm.deb
+Size: 16184
+MD5sum: 9b51ba85fe47ec384afe9a86252035f2
+SHA1: 50b3a31d6a8b6fde345583ef0fc57ce44e62f668
+SHA256: cf0f5aa812b999fd00e47f8e74aa99489d5c9a848a1a434b8cb675e72f6838f1
+SHA512: f4c2d57eb237beb0953b7ad1260a2ac78b64f28dcdecfcb59d4aebe62ee27604ecfd9201bae85ea2fc478b62da2768613371f5fcef1027353d22253fe8713414
+Description: General Purpose Injection and Hooking library for 64-bit devices
+Name: libhooker (common)
+Author: CoolStar <coolstarorganization@gmail.com>
+Icon: https://repo.theodyssey.dev/depictions/icons/libhooker.png
+SileoDepiction: https://repo.theodyssey.dev/depictions/json/libhooker.json
+
+Package: org.coolstar.safemode
+Architecture: iphoneos-arm
+Version: 1.1.4
+Section: System
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 11.0), cy+cpu.arm64
+Replaces: org.coolstar.libhooker (<<1.2.5)
+Filename: ./debs/iphoneos-arm/org.coolstar.safemode_1.1.4_iphoneos-arm.deb
+Size: 558304
+MD5sum: 43526b865445d84251d78f99a6325ab5
+SHA1: fd03023d7559d36435f4d64bad92504cc9d46297
+SHA256: 44368da007c8b46bd7d69c48f0724b36d423758e807215e67f12f85a8ea4966e
+SHA512: 00a05c0fe26260c7385e99aacf9bed2f8b7734f1b04a863d1aaa656d4e838ac39350560358beaa1eef3f72f0c1238d228f0ed8f53af181c6b1a00ffae49b7bcf
+Description: Safe Mode app for libhooker
+Name: Safe Mode (libhooker)
+Author: CoolStar <coolstarorganization@gmail.com>
+
+Package: ellekit
+Architecture: iphoneos-arm64
+Version: 1.1.2
+Priority: optional
+Section: Tweak Injection
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Filename: ./debs/iphoneos-arm64/ellekit_1.1.2_iphoneos-arm64.deb
+Size: 338072
+MD5sum: e30ca0ec5fc2b966602a44c0a867c135
+SHA1: 9ccddc4ede9dc8b8107a77be3c62129fd3ab02c1
+SHA256: 4aa9e502d42c1e7cdb5a7a1a5ff63ba9b4bc2899b63a2f48d904d13c926179b2
+SHA512: 8c2de5dbd64b3ff9489406a2f8ecdbf8fffe0a9c97f14b40a99eca3c53dae286bd1d951ccbcf6e45981941e08fd3916319f8241c133da88e7144be6a58b2172f
+Description: ElleKit tweak injection libraries and loader
+Name: ElleKit
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+
+Package: me.autotouch.autotouch.ios8.inputtext
+Architecture: iphoneos-arm64
+Version: 8.1.2
+Priority: optional
+Section: Utilities
+Maintainer: Kent Krantz <kentkrantz@gmail.com>
+Installed-Size: 75096
+Depends: firmware (>= 12.2) | org.swift.libswift (>= 5.0), ellekit | org.coolstar.libhooker
+Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
+Filename: ./debs/iphoneos-arm64/me.autotouch.autotouch.ios8_8.1.2_iphoneos-arm64.deb
+Size: 21029528
+MD5sum: b8a1b9e4ec338ca046a4f14484af24b4
+SHA1: e87e8eb978c819ab6cd7f535296062e2c6187b4a
+SHA256: 0d0ec629e6c51ead2c3ac598da2b5ac1cc439c6665a13231c2bf08290c044bf7
+SHA512: b6b7153b454b308d28986baead0ab5fdeacecac284e2340b85fb742708be76a89f7b75481b72d8bd700872ad74e24a92b2e70b40013e271376b83af1ad6b36bb
+Homepage: https://autotouch.net
+Description: Record and playback touch operations, play macro scripts automatically.
+Name: AutoTouch InputText
+Author: Kent Krantz <kentkrantz@gmail.com>
+Icon: file:///Applications/AutoTouch.app/AppIcon60x60@2x.png
+
+Package: me.autotouch.autotouch.ios8
+Architecture: iphoneos-arm64
+Version: 8.1.2
+Priority: optional
+Section: Utilities
+Maintainer: Kent Krantz <kentkrantz@gmail.com>
+Installed-Size: 75096
+Depends: firmware (>= 12.2) | org.swift.libswift (>= 5.0), ellekit | org.coolstar.libhooker
+Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
+Filename: ./debs/iphoneos-arm64/me.autotouch.autotouch.ios8.inputtext_8.1.2_iphoneos-arm64.deb
+Size: 21239000
+MD5sum: 60648e56afc3697a00aad7e96a2bf61f
+SHA1: d242756f46ad602d8550d860095e48308da123a5
+SHA256: 4c659780a25223e920f2dd806c7837ff93acc9cac9188aed8a8c7a9dc3eb2c96
+SHA512: e2803405419d793f55a30229eec7eceb6db45c0ee9cc35c1fb7d383180235f9259885ad3bf4b674409b2e290d8dbdc9e0f3527b2056ba33843639c285472df8d
+Homepage: https://autotouch.net
+Description: Record and playback touch operations, play macro scripts automatically.
+Name: AutoTouch
+Author: Kent Krantz <kentkrantz@gmail.com>
+Icon: file:///Applications/AutoTouch.app/AppIcon60x60@2x.png
