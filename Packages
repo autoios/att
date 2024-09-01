@@ -1,5 +1,89 @@
 Package: me.autotouch.autotouch.ios8.inputtext
 Architecture: iphoneos-arm
+Version: 8.2.14
+Priority: optional
+Section: Utilities
+Maintainer: Kent Krantz <kentkrantz@gmail.com>
+Installed-Size: 83248
+Depends: firmware (>= 12.2) | org.swift.libswift (>= 5.0), com.ex.substitute | ellekit
+Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
+Filename: ./debs/iphoneos-arm/me.autotouch.autotouch.ios8.inputtext_8.2.14_iphoneos-arm.deb
+Size: 23516082
+MD5sum: 8e6a864062aa8808c97089733ca66705
+SHA1: c95897526138646a3b331b8fdd48e6909d568490
+SHA256: 136d3130fa91815e3432347bff8e61be8d82d7550456ad635020ccf6deabd778
+SHA512: 9298366f2749179ca8b202914f487b70f8f61b51f0140977d616c7b3cdcfc824ee46fccdf23b24daa97bb9c0f75321ad376c0fa4982ddd31c8fe21dc778f9e9a
+Homepage: https://autotouch.net
+Description: Record and playback touch operations, play macro scripts automatically.
+Name: AutoTouch InputText
+Author: Kent Krantz <kentkrantz@gmail.com>
+Icon: file:///Applications/AutoTouch.app/AppIcon60x60@2x.png
+
+Package: me.autotouch.autotouch.ios8
+Architecture: iphoneos-arm
+Version: 8.2.14
+Priority: optional
+Section: Utilities
+Maintainer: Kent Krantz <kentkrantz@gmail.com>
+Installed-Size: 83248
+Depends: firmware (>= 12.2) | org.swift.libswift (>= 5.0), com.ex.substitute | ellekit
+Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
+Filename: ./debs/iphoneos-arm/me.autotouch.autotouch.ios8_8.2.14_iphoneos-arm.deb
+Size: 23508176
+MD5sum: 29322381c2311719fbf29b8f1fd524fb
+SHA1: da54da91b82fce9a68a6d84ccfea03166f556e59
+SHA256: 687836cc09cc94a0f970e56c1cff0296b620ba53fe4dede7cb12c2b8e35c1281
+SHA512: e3a251cc02db561018604208c9ad52f51ef874e77869a151a961728ab3779d3bec791e930220ae42be72c2f2d5cf2fb7851fe74c9cef462197cea100937311a7
+Homepage: https://autotouch.net
+Description: Record and playback touch operations, play macro scripts automatically.
+Name: AutoTouch
+Author: Kent Krantz <kentkrantz@gmail.com>
+Icon: file:///Applications/AutoTouch.app/AppIcon60x60@2x.png
+
+Package: me.autotouch.autotouch.ios8.inputtext
+Architecture: iphoneos-arm64
+Version: 8.2.14
+Priority: optional
+Section: Utilities
+Maintainer: Kent Krantz <kentkrantz@gmail.com>
+Installed-Size: 83248
+Depends: firmware (>= 12.2) | org.swift.libswift (>= 5.0), ellekit
+Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
+Filename: ./debs/iphoneos-arm64/me.autotouch.autotouch.ios8.inputtext_8.2.14_iphoneos-arm64.deb
+Size: 23503592
+MD5sum: ada64be19ea4c62c2c1512b59c4d92ce
+SHA1: 9f3bdfd8b2054f861aa55ab92bc00384753ec011
+SHA256: 988ad2bf2200b5164b8a4cb93b2fcf33aa39c1bf6742b35ba2a47de3741d6511
+SHA512: f666b64b6836369dda5d36959fcd79eb74a3460807ef2043d103b75fd86443d26c943eae89f7b809bc183be66b8f71f106d314c6156cff8192b7d7fb9fc01ddc
+Homepage: https://autotouch.net
+Description: Record and playback touch operations, play macro scripts automatically.
+Name: AutoTouch InputText
+Author: Kent Krantz <kentkrantz@gmail.com>
+Icon: file:///Applications/AutoTouch.app/AppIcon60x60@2x.png
+
+Package: me.autotouch.autotouch.ios8
+Architecture: iphoneos-arm64
+Version: 8.2.14
+Priority: optional
+Section: Utilities
+Maintainer: Kent Krantz <kentkrantz@gmail.com>
+Installed-Size: 83248
+Depends: firmware (>= 12.2) | org.swift.libswift (>= 5.0), ellekit
+Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
+Filename: ./debs/iphoneos-arm64/me.autotouch.autotouch.ios8_8.2.14_iphoneos-arm64.deb
+Size: 23273352
+MD5sum: 6736e922ab3baa306b644912f8c473c1
+SHA1: d8cca55105c913ff82f4613b32dd5dff9f63109f
+SHA256: 9538f10994616e9c470ff7f8347626712dc4ad21154773dff84411622fbeedf2
+SHA512: 17a1b353c795a6e2b32ac3335a767dccf7cf8248a6fdf0f36edd617885c1774bf9cb6d71f2125a2c2315873d18eed588b30b78e13e6ad8a5f8d0840db6853e4d
+Homepage: https://autotouch.net
+Description: Record and playback touch operations, play macro scripts automatically.
+Name: AutoTouch
+Author: Kent Krantz <kentkrantz@gmail.com>
+Icon: file:///Applications/AutoTouch.app/AppIcon60x60@2x.png
+
+Package: me.autotouch.autotouch.ios8.inputtext
+Architecture: iphoneos-arm
 Version: 8.2.12
 Priority: optional
 Section: Utilities
