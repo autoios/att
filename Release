@@ -1,7 +1,7 @@
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Codename: autotouch-repo
 Components: main
-Date: Thu, 14 Nov 2024 14:52:43 +0000
+Date: Thu, 14 Nov 2024 17:52:05 +0000
 Origin: Autoios AutoTouch
 Label: Autoios AutoTouch
 Suite: stable
@@ -9,6 +9,6 @@ Components: main
 Description: Autoios AutoTouch
 Version: 1.0
 MD5Sum:
- b3ef107f2bf37828a51b91c7c170aabd 42377 Packages
- 56b116ced7c6416f88efa4004424c9a0 6630 Packages.bz2
- 81a461ec6cd52cb6309294fec01584d8 6956 Packages.gz
+ ab5aff3d5ad715308834dfd8f0d4ade3 66539 Packages
+ 5b41528cc2af295ea0a5653767d12e90 12363 Packages.bz2
+ cfbab118e1a9d4a0e7c991cdb0b92626 14053 Packages.gz
