@@ -8,12 +8,11 @@ Installed-Size: 135228
 Depends: firmware (>= 12.2) | org.swift.libswift (>= 5.0), com.ex.substitute | ellekit
 Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
 Filename: ./debs/iphoneos-arm/me.autotouch.autotouch.ios8.inputtext_8.5.5_iphoneos-arm.deb
-Size: 39872346
-MD5sum: e3f9196dd99ed53619b8a708d4e99221
-SHA1: b0a07bbd5426812242353b119500484dcfc24636
-SHA256: e364e5963394e0857b32c270bb032745a940a384da443a66349630d15424372f
-SHA512: 10ab401c4384777e7711e0297995c26e4853181bdf2de1bdf12dcfbf7c4d37c1bc880da2aaf732f1cb26167c02c5e9d18c0882cac535df71769c0eccda69b89d
-SHA512: c80c8f0a16763fefa40026b6322ddefed64212d5daeb13a0c70dc138879bbc66b2abf024d85975cba990392bbc6281be9fc87727121b3fd16eb7052d05638321
+Size: 21630814
+MD5sum: cda21847781e873cd8e7949208f2bf5b
+SHA1: 90df5f3c786d51152c257f6dd28254ec7f5a0fcd
+SHA256: 5a3cf14d668535bf28728c5c056c1513352d8a2bcb438cf63f7b7c13dd1931a3
+SHA512: 56c4fbabacfbfadfe5bfc02ce238da54f2b267d6992afa35a3c01ddbef64edad8e5e6324af575042e4a7a805c26711195a46ddc7c431bf1ebba22f29f253ebaf
 Homepage: https://autotouch.net
 Description: Record and playback touch operations, play macro scripts automatically.
 Name: AutoTouch InputText
@@ -30,11 +29,11 @@ Installed-Size: 135228
 Depends: firmware (>= 12.2) | org.swift.libswift (>= 5.0), com.ex.substitute | ellekit
 Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
 Filename: ./debs/iphoneos-arm/me.autotouch.autotouch.ios8_8.5.5_iphoneos-arm.deb
-Size: 40017452
-MD5sum: d615156c2d8374b7d44d8b62cd47b57b
-SHA1: b80f28969420a2b524adc9fb64dc49f09e66aad5
-SHA256: 617bbeed34d5dd71086cc0c5e222d2f33d669ae5096971947ed61c685c24b460
-SHA512: b44e3930e029fd95fda5bdd0949d7e613a40a194212d119d93a5569d6aee266650e5b4d109b5d5cbd4e801c356357908f0d1121d76b11a28c68fbbc053f161c8
+Size: 21636366
+MD5sum: 18339294982fef9f68cb0e0a276b2d2c
+SHA1: 2a7b48db60e02e81eb35db60674ad3f21c7dc6a9
+SHA256: 81c99657a9613c65aa6a248c7a81b5fbf1448953944c4c3a0bebc504b9b96b99
+SHA512: c6a32f3942ddba1aae9833198542b596dd17eb9702619e31ac2053bac2ab7d3d04e58fefa5391bfc8ec24e523c4986f2dd4644a8b61ee7ed4f5df215b139b778
 Homepage: https://autotouch.net
 Description: Record and playback touch operations, play macro scripts automatically.
 Name: AutoTouch
